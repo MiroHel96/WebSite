@@ -1,0 +1,138 @@
+:root {
+  --shadowEffect: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+    
+
+}
+
+html * {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    
+  }
+
+  .mainElements-Container {
+    background-color: #000000;
+    background-image: url('cd2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.topnav-container {
+    
+    overflow: hidden;
+    text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+  
+  }
+  
+     .topnav-container a {
+          float: left;
+          display: flex;
+          color: #00FF66;
+          text-align: center;
+          padding: 10px 15px;
+          text-decoration: none;
+          font-size: 17px;
+      }
+      
+  .topnav-container a:hover {
+    background-color: #1BFF80;
+    color: black;
+  }
+  
+  .topnav-container a.active {
+    background-color: #1BFF80;
+    color: black;
+  
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+
+}
+
+
+  .text  {
+    text-shadow: var(--shadowEffect);
+    color: #00FF66;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    animation: fadeIn 2s ease-in-out;
+    
+
+
+  }
+
+    .styled-line1 {
+        border: none;
+        height: 3px;
+        width: 800px;
+        background-color: #00FF66;
+        box-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+
+    }
+
+    .exp-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      
+  }
+  
+    .education-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .year {
+    font-weight: bold;
+    margin-right: 20px; /* Adjust spacing as needed */
+  }
+  
+  .description {
+    flex-grow: 1;
+  }
+
+  
+    footer {
+      text-align: center;
+      padding: 3px; 
+      color: #1BFF80;
+      text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .topnav-container a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+    .content-container {
+      padding: 10px;
+    }
+  
+    .styled-line1 {
+      width: 100%;
+    }
+  }
+  
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
