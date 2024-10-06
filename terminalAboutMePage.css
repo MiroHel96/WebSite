@@ -58,6 +58,10 @@ html * {
 
 }
 
+section {
+  margin: 35;
+}
+
 
   .text  {
     text-shadow: var(--shadowEffect);
@@ -66,7 +70,7 @@ html * {
     margin: 0 auto;
     text-align: justify;
     animation: fadeIn 2s ease-in-out;
-    padding: 30px
+    
 
 
   }
@@ -93,11 +97,11 @@ html * {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      width: 100%;
   }
   
   .year {
-    font-weight: bold;
-    margin-right: 20px; /* Adjust spacing as needed */
+    margin-right: 35px; /* Adjust spacing as needed */
   }
   
   .description {

@@ -66,8 +66,14 @@ html * {
     margin: auto;
     height: 100vh;
     flex-direction: column;
+    gap: 20px;
     
   }
+
+  section {
+    margin: 35;
+  }
+  
 
     
   .text  {
