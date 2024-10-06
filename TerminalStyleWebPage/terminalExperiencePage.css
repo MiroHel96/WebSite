@@ -1,0 +1,118 @@
+html * {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    
+  }
+
+  .mainElements-Container {
+    background-color: #000000;
+    background-image: url('Fallout.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.topnav-container {
+    
+    overflow: hidden;
+    text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+  
+  }
+  
+     .topnav-container a {
+          float: left;
+          display: flex;
+          color: #00FF66;
+          text-align: center;
+          padding: 10px 15px;
+          text-decoration: none;
+          font-size: 17px;
+      }
+      
+  .topnav-container a:hover {
+    background-color: #1BFF80;
+    color: black;
+  }
+  
+  .topnav-container a.active {
+    background-color: #1BFF80;
+    color: black;
+  
+  }
+  
+    .topnav-container .icon {
+    display: none;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+  .education-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.year {
+  font-weight: bold;
+  margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.description {
+  flex-grow: 1;
+}
+
+
+    
+  .text  {
+        /*color: #1BFF80;*/
+        color: #00FF66;
+        text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+  }
+
+  .styled-line1 {
+    border: none;
+    height: 3px;
+    width: 600px;
+    background-color: #00FF66;
+    box-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+}
+
+
+ 
+footer {
+  text-align: center;
+  padding: 3px; 
+  color: #1BFF80;
+  text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+}
+
+    /* Mobiili laitteet */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
