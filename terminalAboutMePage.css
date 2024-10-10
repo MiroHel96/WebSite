@@ -34,7 +34,7 @@ html * {
           text-align: center;
           padding: 10px 15px;
           text-decoration: none;
-          font-size: 17px;
+          font-size: 1rem;
       }
       
   .topnav-container a:hover {
@@ -55,11 +55,12 @@ html * {
     justify-content: center;
     width: 100%;
     gap: 20px;
+    padding: 1rem;
 
 }
 
 section {
-  margin: 35;
+  margin: 2rem;
 }
 
 
@@ -101,7 +102,7 @@ section {
   }
   
   .year {
-    margin-right: 35px; /* Adjust spacing as needed */
+    margin-right: 2rem; /* Adjust spacing as needed */
   }
   
   .description {
@@ -129,6 +130,7 @@ section {
   
     .styled-line1 {
       width: 100%;
+      max-width: 800px;
     }
   }
   
