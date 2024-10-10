@@ -102,8 +102,7 @@ html * {
   width: 100%;
 }
 
-/*
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   .topnav-container a {
     float: none;
     display: block;
@@ -111,14 +110,14 @@ html * {
   }
 
   .content-container {
-    padding: 10px;
+    padding: 15px;
   }
 
   .styled-line1 {
     width: 100%;
   }
 }
-*/
+
 
 @keyframes fadeIn {
   from {
@@ -129,15 +128,3 @@ html * {
   }
 }
 
-@media only screen and (orientation:portrait)
-{
-    #wrapper { display:none; }
-    #warning-message { display:block; color: white;}
-    
-    html
-    {
-        background:url('cd2.jpg') no-repeat center center fixed;
-        background-size: cover;
-        height: 100%;
-    }       
-}
