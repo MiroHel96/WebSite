@@ -59,7 +59,7 @@ html * {
     margin: auto;
     height: 100vh;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
     padding: 1rem;
   }
 
@@ -76,12 +76,12 @@ html * {
       }
 
   .styled-line1 {
-    width: 100px;
-    max-width: 800px;
     border: none;
     height: 3px;
     background-color: #00FF66;
     box-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+    width: 100%;
+    max-width: 800px;
     
 }
 
@@ -111,7 +111,7 @@ footer {
     
       .styled-line1 {
         width: 100%;
-      }
+        max-width: 800px;}
     }
 
     @keyframes fadeIn {
