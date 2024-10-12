@@ -59,7 +59,6 @@ html * {
     margin: auto;
     height: 100vh;
     flex-direction: column;
-    gap: 20px;
     padding: 1rem;
   }
 
