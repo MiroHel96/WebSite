@@ -79,7 +79,7 @@ html * {
     height: 3px;
     background-color: #00FF66;
     box-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
-    width: 250%;
+    width: 100%;
     max-width: 800px;
     
     
