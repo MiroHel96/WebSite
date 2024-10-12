@@ -60,6 +60,7 @@ html * {
     height: 100vh;
     flex-direction: column;
     padding: 1rem;
+    gap: 20px;
   }
 
   section {
